@@ -18,7 +18,7 @@
 ---
 
 ## Demo Video
-[![Demo Video](assets/demo-thumbnail.png)](https://youtu.be/QJM7d27KuBM)
+[![Demo Video](assets/demo-thumbnail.png)](https://youtu.be/b1V6v0NGlNM)
 
 ---
 
