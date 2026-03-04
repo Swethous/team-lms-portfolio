@@ -71,13 +71,25 @@
 ---
 
 ## Architecture
-![Runtime Architecture](assets/architecture/runtime.png)
+
+### Runtime Architecture
+![Runtime Architecture](assets/architecture/Runtime_Architecture2.png)
 
 Runtime Flow: **Nginx → Next.js(BFF) → Spring Boot → RDS/S3/OpenAI**
 - Nginx：SSL終端(443) + reverse proxy
 - Next.js：UI + BFF（Route Handlers）で通信を集約
 - Spring Boot：`@PreAuthorize` による最終認可 + audit/logging
 - RDS：運用DB / S3：ファイル保存 / OpenAI：AI Advisor
+
+### CI/CD Architecture
+![CI/CD Architecture](assets/architecture/CI&CD_Architecture.png)
+
+CI/CD Flow: **GitHub → GitHub Actions → EC2(Docker)**
+- `main` への merge をトリガに Backend/Frontend の deploy workflow を実行
+- Backend：Build/Deploy 自動化（現状 CI テストは運用方針として skip）
+- Frontend：Docker build & deploy（必要に応じて拡張）
+- EC2 では Docker コンテナ（frontend-server / backend-server）を更新して反映
+- GHCR に image を push → EC2 が pull してコンテナ更新
 
 ---
 
