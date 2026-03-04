@@ -168,6 +168,19 @@ Runtime Flow: **Nginx → Next.js(BFF) → Spring Boot → RDS/S3/OpenAI**
 
 ---
 
+## Proof (Key PRs)
+> 代表PR一覧です（詳細な設計意図・背景は本リポジトリのREADME/Docsに整理しています）。
+
+- CI baseline（GitHub Actions） — https://github.com/team-lms-2026-1/LMS-project/pull/1
+- Auth/JWT + RBAC（権限モデル導入） — https://github.com/team-lms-2026-1/LMS-project/pull/42
+- Logging基盤（Interceptor / AccessLog / ActivityLog / Export Service） — https://github.com/team-lms-2026-1/LMS-project/pull/91
+- Extra-curricular 基盤ワークフロー（運営/申請/状態管理） — https://github.com/team-lms-2026-1/LMS-project/pull/147
+- Extra-curricular 拡張（成績/完了処理/学生・管理者ビュー） — https://github.com/team-lms-2026-1/LMS-project/pull/163
+- MBTI AI Advisor refactor（Recommendation service/client） — https://github.com/team-lms-2026-1/LMS-project/pull/232
+- i18n + MBTI/AI連携（job_catalog_i18n seed含む） — https://github.com/team-lms-2026-1/LMS-project/pull/237
+
+---
+
 ## ERD
 - 詳細ERD: [ERD 詳細を見る](docs/ERD.md)
 
