@@ -5,7 +5,7 @@ Team-LMS のドメイン別 ERD です。
 ## Accounts / Permissions / Notifications
 ![Accounts, Permissions, Notifications](../assets/erd/accounts-permissions-and-notifications.png)
 
-## Courses / Enrollment
+## Curricular
 ![Courses and Enrollment](../assets/erd/courses-and-enrollment.png)
 
 ## Extracurricular
