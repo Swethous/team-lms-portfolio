@@ -12,7 +12,8 @@
 ## Links
 - Org Repository (Source): https://github.com/team-lms-2026-1/LMS-project
 - Portfolio Repo (this): https://github.com/Swethous/team-lms-portfolio
-- Figma (prototype, view-only): https://www.figma.com/proto/RxRjps2RteNVlH6J0vTxx9/Team-LMS-FIGMA-?node-id=17-20&t=CECAPJa6TQnkEFcM-1
+- Figma (devmode): https://www.figma.com/design/RxRjps2RteNVlH6J0vTxx9/Team-LMS-FIGMA-?node-id=17-20&m=dev&t=iPenlfMWJRIDAT5H-1
+- Figma (prototype): https://www.figma.com/proto/RxRjps2RteNVlH6J0vTxx9/Team-LMS-FIGMA-?node-id=17-20&t=CECAPJa6TQnkEFcM-1
 - Use Case Diagram (draw.io): https://drive.google.com/file/d/1vGpn3qZlbVyoDKWs38B_-1B4RwdgZc89/view?usp=sharing
 
 ---
